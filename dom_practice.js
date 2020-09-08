@@ -29,7 +29,14 @@ newPic.setAttribute('src', 'https://i.pinimg.com/originals/7b/88/c0/7b88c0a83d7c
 //console.log(divs[1]); //testing to see if you can gain access to second element set to variable divs
 divs[1].appendChild(newPic);
 
+//extra: when playing with CSS I was curious if I could style the size of the burrito image but I first set a class name to the new image and then in CSS I was able to use .burrito to style it
+newPic.className= 'burrito';
+
 //my attempt at the bonus: get all list items to change to color of choice
 for(let i=0; i<listItems.length; i++){
     listItems[i].style.color= '#FFA07A'; //light salmon color
 }
+
+//removing an element: choose element to remove and set to a variable then using .remove()
+const paragraph= document.querySelector('p');
+//paragraph.remove();

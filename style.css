@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+}
+
+
+h4, li {
+    text-align: left;
+}
+
+/*burrito class name was given using DOM manipulation*/
+.burrito {
+    height: 250px;
+}
